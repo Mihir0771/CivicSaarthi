@@ -52,7 +52,7 @@ CivicSaarthi operates on an autonomous evidence-to-action agent loop:
 
 ---
 
-## 🚀 Running the Application
+## 🚀 Running the Application & Automated Mock Tests
 
 ```bash
 # Install dependencies
@@ -61,7 +61,12 @@ npm install
 # Start full-stack server with Vite in dev mode
 npm run dev
 # Listens on http://0.0.0.0:3000
+
+# Run automated mock acceptance test suite
+npm run test:mock
 ```
+
+> **Full Test Documentation:** See [`TESTCASES.md`](./TESTCASES.md) for the complete 11-scenario test matrix, assertions, and execution results.
 
 ---
 
