@@ -1,0 +1,10 @@
+{
+  "name": "CivicSaarthi — Evidence-to-Action Civic Agent",
+  "description": "One photo. One ticket. A clear trail. An evidence-to-action civic complaint agent for municipal issues with automated routing and Civic Memory.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

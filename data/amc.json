@@ -1,0 +1,60 @@
+{
+  "wards": [
+    {
+      "id": "W12",
+      "name": "Navrangpura",
+      "zone": "West",
+      "areas": [
+        "Navrangpura",
+        "Stadium",
+        "CG Road"
+      ]
+    },
+    {
+      "id": "W27",
+      "name": "Maninagar",
+      "zone": "South",
+      "areas": [
+        "Maninagar",
+        "Kankaria",
+        "Jawahar Chowk"
+      ]
+    }
+  ],
+  "departments": {
+    "pothole": "Roads & Buildings",
+    "garbage": "Solid Waste Management",
+    "streetlight": "Light Department",
+    "waterlogging": "Storm Water Drainage"
+  },
+  "complaints": [
+    {
+      "trackingId": "AMC-2026-000123",
+      "ward": "W12",
+      "issue": "pothole",
+      "status": "Assigned",
+      "filedAt": "2026-10-24T17:20:00+05:30",
+      "updatedAt": "2026-10-24T17:25:00+05:30",
+      "area": "Navrangpura",
+      "department": "Roads & Buildings",
+      "description": "Seeded demo complaint",
+      "severity": "medium",
+      "evidenceSummary": "Depression on road surface approximately 2 feet wide near Commerce Six Roads junction.",
+      "evidenceCount": 1,
+      "timeline": [
+        {
+          "timestamp": "2026-10-24T17:20:00+05:30",
+          "status": "Submitted",
+          "actor": "Citizen (Mobile App)",
+          "note": "Initial evidence submitted with photo and GPS location."
+        },
+        {
+          "timestamp": "2026-10-24T17:25:00+05:30",
+          "status": "Assigned",
+          "actor": "AMC Automated Triage Engine",
+          "note": "Assigned to Roads & Buildings Division (West Zone - W12)."
+        }
+      ]
+    }
+  ]
+}
